@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySubmission4</string>
+    <string name="title">Judul</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="popularity">Popularitas</string>
+    <string name="top_rated_movies">Film Terbaik</string>
+    <string name="hello_blank_fragment">Hallo Ini Fragment Kosong</string>
+    <string name="opening_this_week">Terbaru Di Minggu ini</string>
+    <string name="latest_movies">Film Terbaru</string>
+    <string name="_0_0">0.0</string>
+    <string name="movies">Film</string>
+    <string name="tvShow">Acara TV</string>
+    <string name="language">Pilih Bahasa</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Mencari Yang Menarik?</string>
+    <string name="genre">Genre</string>
+    <string name="duration">Durasi</string>
+    <string name="description">Deskripsi</string>
+    <string name="favorites">Favorit</string>
+    <string name="search_result">Hasil Pencarian :</string>
+    <string name="appwidget_text">SPANDUK FAVORIT</string>
+    <string name="empty_text">TIDAK ADA DATA</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="reminder_daily_return_to_app">Mengingatkan Setiap Hari Untuk Kembali</string>
+    <string name="release_daily">Mengingatkan untuk menampilkan film terbaru</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="setting">Pengaturan</string>
+    <string name="miss_you">Jangan mau ketinggalan film terbaru</string>
+    <string name="reminder_on">Daily Reminder Telah Di Aktifkan</string>
+    <string name="reminder_off">Daily Reminder Telah Di Non Aktifkan</string>
+    <string name="release_on">Release Reminder telah Di Aktifkan</string>
+    <string name="release_off">Release Reminder telah Di Non Aktifkan</string>
+    <string name="reminder_header">Pengingat</string>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MySubmission4</string>
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="popularity">Popularity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="opening_this_week">Opening This Week</string>
+    <string name="latest_movies">Latest Movies</string>
+    <string name="_0_0">0.0</string>
+    <string name="movies">Movies</string>
+    <string name="tvShow">TV Show</string>
+    <string name="language">Language</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Looking For Interesting?</string>
+    <string name="genre">Genre</string>
+    <string name="duration">Duration</string>
+    <string name="description">Description</string>
+    <string name="favorites">Favorites</string>
+    <string name="search_result">Search Result :</string>
+    <string name="appwidget_text">FAVORITE BANNER</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="reminder_daily_return_to_app">Reminder Daily Return To App</string>
+    <string name="miss_you">Dont want to miss the latest movie</string>
+    <string name="release_daily">Reminder showing the movie that release today</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="setting">Setting</string>
+    <string name="reminder_on">Daily Reminder Has Been Activated</string>
+    <string name="release_on">Release Reminder Has Been Activated</string>
+    <string name="release_off">Release Reminder Has Been Deactivated</string>
+    <string name="reminder_off">Daily Reminder Has Been Deactivated</string>
+    <string name="reminder_header">Reminder</string>
+</resources>

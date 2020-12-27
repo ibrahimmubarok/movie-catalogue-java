@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detail_tv_show"
+    tools:context="com.ibeybeh.mysubmission4.activity.TvShowDetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_vertical"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_detail_tv_show"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"
+            android:layout_marginBottom="8dp"
+            android:indeterminateDrawable="@drawable/progress"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/img_photo_tv_show_poster_detail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@color/cardview_shadow_start_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_tv_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <ImageButton
+                    android:id="@+id/btn_fav_detail_tv_show"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignEnd="@id/tv_title_tv_show_detail"
+                    android:layout_alignRight="@id/tv_title_tv_show_detail"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/ic_favorite_border_24dp"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_desc_tv_show_detail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.104" />
+
+                <ImageView
+                    android:id="@+id/img_photo_tv_show_detail"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:background="@color/cardview_shadow_start_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.009"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView_popularity_tv_show"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/popularity"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_first_air_date" />
+
+                <TextView
+                    android:id="@+id/tv_popularity_tv_show_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginLeft="112dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/popularity"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_first_air_date_tv_show_detail" />
+
+                <TextView
+                    android:id="@+id/textView_first_air_date"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/release_date"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_desc_tv_show_detail" />
+
+                <TextView
+                    android:id="@+id/tv_first_air_date_tv_show_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginLeft="112dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/release_date"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_desc_tv_show_detail" />
+
+                <TextView
+                    android:id="@+id/tv_title_tv_show_detail"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="24dp"
+                    android:paddingStart="@dimen/margin_horizontal"
+                    android:paddingEnd="@dimen/margin_horizontal"
+                    android:text="@string/title"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_fav_detail_tv_show"
+                    app:layout_constraintStart_toEndOf="@+id/img_photo_tv_show_detail"
+                    app:layout_constraintTop_toTopOf="parent"  />
+
+                <TextView
+                    android:id="@+id/tv_desc_tv_show_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ellipsize="end"
+                    android:text="@string/description"
+                    android:textSize="14sp"
+                    android:lineSpacingMultiplier="1.5"
+                    app:layout_constraintTop_toBottomOf="@+id/img_photo_tv_show_detail"
+                    tools:layout_editor_absoluteX="16dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
